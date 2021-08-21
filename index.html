@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE htm-sociall>
+<htm-sociall lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul class="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -17,27 +18,50 @@
 
     </ul>
 
-    <h1>Sobre o Leonardo</h1>
+    <h1 class="center">Sobre o Leonardo</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iste corrupti magni asperiores blanditiis ad laborum ipsam quae, nisi soluta harum dolores sint, temporibus qui sequi amet odit quia. Quod.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ea blanditiis vel! Itaque fugiat pariatur dolorem in quia. Totam odio iste praesentium id provident ducimus autem ad qui beatae quisquam.
-    </p>
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300" src="assets/img/fotodoleo.jpg" alt="Foto do criador desse conteudo">
+        </div>
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iste corrupti magni asperiores blanditiis ad laborum ipsam quae, nisi soluta harum dolores sint, temporibus qui sequi amet odit quia. Quod.
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ea blanditiis vel! Itaque fugiat pariatur dolorem in quia. Totam odio iste praesentium id provident ducimus autem ad qui beatae quisquam.
+            </p>
+        </div>
+    </div>
 
-    <img src="assets/img/fotodoleo.jpg" alt="Foto do criador desse conteudo">
 
-    <h2>Melhor trailer do FIFA</h2>
+    <h2 class="center">Melhor trailer do FIFA</h2>
 
-    <iframe width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/FVsgso273EE" 
-    title="YouTube video player" 
-    frameborder="5" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-    </iframe>
+    <div class="container mb-50">
+        <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/FVsgso273EE" 
+        title="YouTube video player" 
+        frameborder="5" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </div>
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://www.linkedin.com/in/leonardo-affonso/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/leoaf2/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram-logo.png" alt="">
+            </a>
+        </div>
+        <p class="center">
+            Todos os direitos reservador: Leonardo Affonso &copy;
+        </p>
+    </footer>
 
 </body>
-</html>
+</htm-sociall>
